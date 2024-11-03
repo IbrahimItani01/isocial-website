@@ -61,7 +61,7 @@ a{
     .large-nav{
         display: flex;
     }
-    .hero-section{
+    .hero-section,.expertise-section{
         margin: 10px;
     }
     .hero-icon{
