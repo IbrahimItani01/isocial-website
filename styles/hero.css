@@ -8,6 +8,7 @@
     background-color: white;
     margin: 10px;
     box-shadow: 0 0 7px;
+    position: relative;
 }
 .hero-section h1{
     font-size: 50px;
@@ -23,4 +24,8 @@
     align-items: center;
     flex-direction: column;
     gap: 2em;
+}
+.hero-icon{
+    width: 55px;
+    position: absolute;
 }
