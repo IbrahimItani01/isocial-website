@@ -25,3 +25,16 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* breakpoint for larger tablets and  laptops  */
+@media screen and (min-width:900px) {
+    nav{
+        padding-inline: 10%;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .large-nav{
+        display: flex;
+    }
+}

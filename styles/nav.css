@@ -9,19 +9,19 @@ nav{
     padding-inline: 1em;
 
 }
-.mobile-nav,.mobile-nav-content{
+.mobile-nav{
     display: flex;
     flex-direction: column;
-}
-.mobile-nav{
     position: relative;
 }
+
 
 .nav-logo{
     width: 50px;
 }
 .burger-icon{
     width: 35px;
+    cursor: pointer;
 }
 .mobile-nav-content{
     position: absolute;
@@ -34,6 +34,8 @@ nav{
     gap: 2em;
     box-shadow: 0 0 7px;
     border-radius: 7px;
+    display: none;
+    flex-direction: column;
 }
 .contact-button{
     background-color: var(--secondary-color);
@@ -41,4 +43,26 @@ nav{
     text-align: center;
     padding: 10px;
     border-radius: 7px;
+}
+.large-nav{
+    display: none;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.large-nav>div{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-grow: 1;
+}
+.large-nav a{
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 0.2s ease-in;
+}
+.large-nav a:hover{
+    color: white;
+    background-color: var(--primary-color);
+
 }
