@@ -1,8 +1,17 @@
+@font-face {
+    font-family: "roboto";
+    src: url('/assets/font/Roboto-Source_Serif_4/Roboto/Roboto-Regular.ttf');
+    font-weight: bold;
+}
 *{
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: "roboto";
+}
+body{
+    background-color: var(--primary-bg);
 }
 img{
     width: 100%;
@@ -14,4 +23,5 @@ input{
 }
 a{
     text-decoration: none;
+    color: black;
 }
