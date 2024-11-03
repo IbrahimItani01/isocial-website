@@ -7,7 +7,9 @@ nav{
     box-shadow: 0 0 7px;
     height: 80px;
     padding-inline: 1em;
-
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 .mobile-nav{
     display: flex;
@@ -36,6 +38,7 @@ nav{
     border-radius: 7px;
     display: none;
     flex-direction: column;
+    z-index: 3;
 }
 
 .large-nav{
