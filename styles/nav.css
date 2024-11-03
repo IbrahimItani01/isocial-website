@@ -37,13 +37,7 @@ nav{
     display: none;
     flex-direction: column;
 }
-.contact-button{
-    background-color: var(--secondary-color);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 7px;
-}
+
 .large-nav{
     display: none;
     align-items: center;
