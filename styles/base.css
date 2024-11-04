@@ -128,8 +128,11 @@ a{
         height: 100vh;
         justify-content: space-between;
     }
-    .scrollwheel-card>h1{
+    .scrollwheel-card>h1,.deliver-content>h1{
         font-size: 40px;
+    }
+    .scrollwheel-card>p,.deliver-content>p{
+        font-size: 22px;
     }
     
 }

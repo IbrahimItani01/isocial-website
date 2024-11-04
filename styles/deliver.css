@@ -35,7 +35,7 @@
     justify-content: center;
 }
 .deliver-content:nth-child(odd){
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 .deliver-content:nth-child(even){
     background-color: var(--tertiary-color);
