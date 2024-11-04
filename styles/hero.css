@@ -11,6 +11,8 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 10px;
+    max-width: 1480px;
+    margin-inline: auto;
 }
 .hero-section h1{
     font-size: 50px;

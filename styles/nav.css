@@ -3,7 +3,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.452);
     box-shadow: 0 0 7px;
     height: 80px;
     padding-inline: 1em;

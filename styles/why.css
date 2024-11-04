@@ -6,9 +6,11 @@
     box-shadow: 0 0 8px;
     background-color: white;
     padding-top: 50px;
-    margin: 10px 0;
+    margin: 10px auto;
     height: 100vh;
     padding-bottom: 50px;
+    max-width: 1480px;
+
 }
 .why-section > h1 {
     font-size: 30px;
