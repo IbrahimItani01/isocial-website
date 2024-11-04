@@ -34,3 +34,21 @@ function updateButtons() {
 updateButtons();
 nextBtn.addEventListener("click", updateButtons);
 prevBtn.addEventListener("click", updateButtons);
+gsap.fromTo(
+    ".expertise-section",
+    {
+      opacity: 0,
+      y: 20, // Initial state: hidden and slightly offset
+    },
+    {
+      opacity: 1,
+      y: 0, // Final state: fully visible and in place
+      duration: 1.5,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: ".expertise-section",
+        start: "top 80%", // Start the animation when the top of the section is 80% from the top of the viewport
+        toggleActions: "play none none reverse",
+      },
+    }
+  );
