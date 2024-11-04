@@ -1,6 +1,6 @@
 const heroIcons = document.querySelectorAll(".hero-icon")
 const heroSection = document.querySelector(".hero-section");
-let doneScatter = false;
+let resizeTimeout;
 const positionIcons = ()=>{
     const heroWidth = heroSection.clientWidth;
     const heroHeight = heroSection.clientHeight;
@@ -12,13 +12,10 @@ const positionIcons = ()=>{
             left:xPosition,
             top:yPosition,
             delay:i*0.1,
-            onComplete: ()=>{
-                doneScatter = true;
-            }
         }) 
     })
+
 }
-positionIcons();
 const handleCursor = (e)=>{
     const mouseX = e.clientX -heroSection.getBoundingClientRect().left;
     const mouseY = e.clientY - heroSection.getBoundingClientRect().top;
@@ -47,15 +44,16 @@ const handleCursor = (e)=>{
         }
         })
 }
-
-let resizeTimeout;
+positionIcons();
+setTimeout(()=>{
+    heroSection.addEventListener("mousemove",(e)=>{
+        handleCursor(e)
+    })
+},1000)
 window.addEventListener("resize",()=>{
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
         positionIcons();
     }, 200);
 
-})
-heroSection.addEventListener("mousemove",(e)=>{
-    handleCursor(e)
 })
