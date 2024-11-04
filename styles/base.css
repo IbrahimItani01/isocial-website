@@ -50,7 +50,24 @@ a{
     background-color: var(--secondary-color) ;
     color: white;
 }
-
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px;
+    background-color: white;
+    padding-top: 50px;
+    margin: 10px auto;
+    height: 100vh;
+    padding-bottom: 50px;
+    max-width: 1480px;
+}
+.main-section > h1 {
+    font-size: 30px;
+    color: var(--tertiary-color);
+  }
+  
 /* breakpoint for larger tablets and  laptops  */
 @media screen and (min-width:900px) {
     nav{
@@ -81,7 +98,7 @@ a{
     .carousel-btn-container{
         width: 430px;
     }
-    .expertise-section>h1,.why-section>h1,.deliver-section>h1{
+    .main-section>h1,.deliver-section>h1{
         font-size: 70px;
     }
     .deliver-image{

@@ -1,21 +1,4 @@
-.why-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    box-shadow: 0 0 8px;
-    background-color: white;
-    padding-top: 50px;
-    margin: 10px auto;
-    height: 100vh;
-    padding-bottom: 50px;
-    max-width: 1480px;
 
-}
-.why-section > h1 {
-    font-size: 30px;
-    color: var(--tertiary-color);
-  }
   .why-cards-container{
     position: relative;
     display: flex;
