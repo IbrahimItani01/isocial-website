@@ -134,5 +134,41 @@ a{
     .scrollwheel-card>p,.deliver-content>p{
         font-size: 22px;
     }
-    
+    .footer-content{
+        justify-content: space-between;
+        padding-inline: 5%;
+        height: 10%;
+
+    }
+    .footer-links{
+        flex-direction: row;    
+        flex-grow: 1;
+        justify-content: space-around;
+    }
+
+    .developer{
+        display: block;
+        font-size: 12px;
+    }
+    .footer-logo{
+        height: 100%;
+    }
+    .footer-links a{
+        padding: 10px;
+        border-radius: 7px;
+        transition: all 0.2s ease-in;
+    }
+    .contact-content{
+        height: 90%;
+    }
+    .contact-content>h1{
+        text-transform: uppercase;
+        font-size: 70px;
+    }
+    .contact-content>p{
+        font-size: 20px;
+        width: 50%;
+    }
+
+
 }

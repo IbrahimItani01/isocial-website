@@ -1,0 +1,56 @@
+footer{
+    height: 100vh;
+}
+.contact-content{
+    background-image: linear-gradient(to bottom right, var(--primary-color), var(--tertiary-color));
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    height: 80%;
+    padding-inline: 2em;
+    gap: 1em;
+    max-width: 1480px;
+    margin-inline: auto;
+}
+.contact-content>h1{
+    text-transform: uppercase;
+}
+.contact-content>*{
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    background-color: white;
+    height: 20%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer-logo{
+    width: 100px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+.footer-links>a{
+    text-align: center;
+color: black;
+}
+
+.footer-links a:hover{
+    color: white;
+    background-color: var(--primary-color);
+
+}
+.developer{
+    color: rgba(122, 121, 121, 0.792);
+    text-transform: uppercase;
+    display: none;
+}
