@@ -1,3 +1,8 @@
+const toTop = document.getElementById("to-top");
+
+toTop?.addEventListener("click",()=>{
+  window.scrollTo(0,0)
+})
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.fromTo(
