@@ -48,7 +48,7 @@ gsap.fromTo(
       scrollTrigger: {
         trigger: ".expertise-section",
         start: "top 80%", // Start the animation when the top of the section is 80% from the top of the viewport
-        toggleActions: "play none none reverse",
+        toggleActions: "play none none none",
       },
     }
   );
