@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: "roboto";
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 body{
     background-color: var(--primary-bg);
@@ -78,6 +79,9 @@ a{
     }
     .expertise-carousel-container{
         width: 400px;
+    }
+    .carousel-btn-container{
+        width: 430px;
     }
     .expertise-section>h1,.why-section>h1{
         font-size: 70px;
